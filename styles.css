@@ -1,0 +1,31 @@
+.Titulo{
+    color: orange; text-align: center;
+    font-size: 80px; margin: 10px;
+}
+
+.Navegacion a{
+    width: 100%;
+    padding: 30px 90px;
+    color: darkgray;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Titulo-Secundario{
+    font-size: 77px;
+    padding: 0px;;
+}
+
+.Titulo-Terciario{
+    font-size: 25px;
+    margin: 0px;
+}
+
+.Fecha{
+    font-size: 19px;
+    padding: 15px 0px 0px 0px;
+}
+.Parrafo{
+    font-size: 20px;
+    display:inline-flexbox;
+}
