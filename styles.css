@@ -5,7 +5,7 @@
 
 .Navegacion a{
     width: 100%;
-    padding: 30px 90px;
+    padding: 3.5rem;
     color: darkgray;
     text-decoration: none;
     font-size: 16px;
@@ -27,5 +27,52 @@
 }
 .Parrafo{
     font-size: 20px;
-    display:inline-flexbox;
+    width: 70%;
+    margin-right: 25%;
+    text-align: justify;
 }
+
+footer{
+    background-color: #464646;
+    color: white;
+    height: auto;
+    width: 100%;
+}
+
+.Titulo-Footer{
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.Footer-Columnas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.Columna{
+    flex: 1;
+    max-width: calc(25% - 20px);
+    margin: 0 10px;
+}
+
+.Columna h4{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.Columna ul{
+    list-style: none;
+    padding: 0;
+}
+
+.Columna ul li {
+    margin-bottom: 5px;
+}
+
+.Columna ul li a {
+    text-decoration: none;
+    color: #ffffff; 
+}
+
